@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		CB3158A923733F60005CCD59 /* do.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = do.wav; sourceTree = "<group>"; };
 		CB3158AA23733F60005CCD59 /* re.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = re.wav; sourceTree = "<group>"; };
-		CB482C07236B5477002B4DCF /* conway`sGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "conway`sGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB482C07236B5477002B4DCF /* conwaysGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = conwaysGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB482C0A236B5477002B4DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB482C13236B547A002B4DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB482C16236B547A002B4DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		CB482C08236B5477002B4DCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB482C07236B5477002B4DCF /* conway`sGame.app */,
+				CB482C07236B5477002B4DCF /* conwaysGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			);
 			name = "conway`sGame";
 			productName = "conway`sGame";
-			productReference = CB482C07236B5477002B4DCF /* conway`sGame.app */;
+			productReference = CB482C07236B5477002B4DCF /* conwaysGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.conwaysgame.conway-sGame";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = conwaysGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -346,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.conwaysgame.conway-sGame";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = conwaysGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

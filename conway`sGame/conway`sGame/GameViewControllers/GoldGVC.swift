@@ -20,12 +20,9 @@ class GoldGVC: UIViewController {
     let scene = SCNScene()
     var floor: Float = 0.0
     var nodes: [SCNNode] = []
-    var doAudioPlayer = AVAudioPlayer()
-    var reAudioPlayer = AVAudioPlayer()
-    var miAudioPlayer = AVAudioPlayer()
-    var faAudioPlayer = AVAudioPlayer()
-    var solAudioPlayer = AVAudioPlayer()
-    var laAudioPlayer = AVAudioPlayer()
+    var doAudioPlayer: AVAudioPlayer!
+    var reAudioPlayer: AVAudioPlayer!
+
     
     
     
@@ -72,16 +69,17 @@ class GoldGVC: UIViewController {
         
         let doSong = Bundle.main.path(forResource: "do", ofType: "wav")
         do {
-           doAudioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath:doSong!))
+            let url = URL(fileURLWithPath: doSong!)
+            
+            doAudioPlayer = try AVAudioPlayer(contentsOf: url)
         }
-        
         catch {
             print("Ërror")
         }
         
         let reSong = Bundle.main.path(forResource: "re", ofType: "wav")
         do {
-           doAudioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath:doSong!))
+           reAudioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath:doSong!))
         }
         
         catch {

@@ -30,7 +30,7 @@ class BronzeGVC: UIViewController {
         self.view = scnView
         scnView.scene = scene
         scnView.backgroundColor = .white
-//        scnView.isPlaying = false
+        
         
         var cameraNode: SCNNode!
         cameraNode = SCNNode()
@@ -56,7 +56,7 @@ class BronzeGVC: UIViewController {
         stopButton.setTitle("Stop", for: .normal)
         stopButton.setTitleColor(.white, for: .normal)
         stopButton.addTarget(self, action: #selector(stopButtonAction), for: .touchUpInside)
-        stopButton.layer.cornerRadius = 10 
+        stopButton.layer.cornerRadius = 10
         self.view.addSubview(stopButton)
         
         
@@ -109,8 +109,8 @@ class BronzeGVC: UIViewController {
                 }
             }
         }
-       return count
-
+        return count
+        
     }
     
     func decideTileLife(col: Int, row: Int) {
@@ -127,13 +127,13 @@ class BronzeGVC: UIViewController {
                 dead.append((row,col))
             }
         }
-        
+            
         else{
             if (count == 3){
-                 alive.append((row,col))
+                alive.append((row,col))
             }
             else{
-                  dead.append((row,col))
+                dead.append((row,col))
             }
         }
     }
@@ -146,7 +146,7 @@ class BronzeGVC: UIViewController {
             }
         }
         newGrid()
-       
+        
     }
     
     
