@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3158AB23733F60005CCD59 /* do.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB3158A923733F60005CCD59 /* do.wav */; };
+		CB3158AC23733F60005CCD59 /* re.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB3158AA23733F60005CCD59 /* re.wav */; };
 		CB482C0B236B5477002B4DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB482C0A236B5477002B4DCF /* AppDelegate.swift */; };
 		CB482C14236B547A002B4DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB482C13236B547A002B4DCF /* Assets.xcassets */; };
 		CB482C17236B547A002B4DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB482C15236B547A002B4DCF /* LaunchScreen.storyboard */; };
-		CB482C20236B68BA002B4DCF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB482C1F236B68B9002B4DCF /* GameViewController.swift */; };
-		CB482C22236B696D002B4DCF /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB482C21236B696D002B4DCF /* Button.swift */; };
 		CB482C24236B6C17002B4DCF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB482C23236B6C17002B4DCF /* TabBarViewController.swift */; };
 		CB482C27236B6D02002B4DCF /* BronzeGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB482C26236B6D02002B4DCF /* BronzeGVC.swift */; };
 		CB482C29236B6FA0002B4DCF /* SilverGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB482C28236B6FA0002B4DCF /* SilverGVC.swift */; };
 		CB482C2B236B6FC6002B4DCF /* GoldGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB482C2A236B6FC6002B4DCF /* GoldGVC.swift */; };
+		CBC6C4FF237212F900C1E143 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC6C4FE237212F900C1E143 /* Colors.swift */; };
+		CBC9185B23720E55002D6164 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9185A23720E55002D6164 /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB3158A923733F60005CCD59 /* do.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = do.wav; sourceTree = "<group>"; };
+		CB3158AA23733F60005CCD59 /* re.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = re.wav; sourceTree = "<group>"; };
 		CB482C07236B5477002B4DCF /* conway`sGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "conway`sGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB482C0A236B5477002B4DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB482C13236B547A002B4DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB482C16236B547A002B4DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB482C18236B547A002B4DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB482C1F236B68B9002B4DCF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		CB482C21236B696D002B4DCF /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		CB482C23236B6C17002B4DCF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		CB482C26236B6D02002B4DCF /* BronzeGVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BronzeGVC.swift; sourceTree = "<group>"; };
 		CB482C28236B6FA0002B4DCF /* SilverGVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverGVC.swift; sourceTree = "<group>"; };
 		CB482C2A236B6FC6002B4DCF /* GoldGVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldGVC.swift; sourceTree = "<group>"; };
+		CBC6C4FE237212F900C1E143 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CBC9185A23720E55002D6164 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +47,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB3158A823733F1F005CCD59 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				CB3158A923733F60005CCD59 /* do.wav */,
+				CB3158AA23733F60005CCD59 /* re.wav */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 		CB482BFE236B5477002B4DCF = {
 			isa = PBXGroup;
 			children = (
 				CB482C09236B5477002B4DCF /* conway`sGame */,
+				CB3158A823733F1F005CCD59 /* Songs */,
 				CB482C08236B5477002B4DCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				CB482C0A236B5477002B4DCF /* AppDelegate.swift */,
-				CB482C1F236B68B9002B4DCF /* GameViewController.swift */,
 				CB482C13236B547A002B4DCF /* Assets.xcassets */,
+				CBC9185A23720E55002D6164 /* GameManager.swift */,
 				CB482C25236B6CBB002B4DCF /* GameViewControllers */,
 				CB482C15236B547A002B4DCF /* LaunchScreen.storyboard */,
 				CB482C18236B547A002B4DCF /* Info.plist */,
@@ -76,8 +90,8 @@
 		CB482C1E236B68A3002B4DCF /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				CB482C21236B696D002B4DCF /* Button.swift */,
 				CB482C23236B6C17002B4DCF /* TabBarViewController.swift */,
+				CBC6C4FE237212F900C1E143 /* Colors.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -150,7 +164,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3158AC23733F60005CCD59 /* re.wav in Resources */,
 				CB482C17236B547A002B4DCF /* LaunchScreen.storyboard in Resources */,
+				CB3158AB23733F60005CCD59 /* do.wav in Resources */,
 				CB482C14236B547A002B4DCF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,9 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB482C24236B6C17002B4DCF /* TabBarViewController.swift in Sources */,
-				CB482C20236B68BA002B4DCF /* GameViewController.swift in Sources */,
-				CB482C22236B696D002B4DCF /* Button.swift in Sources */,
+				CBC9185B23720E55002D6164 /* GameManager.swift in Sources */,
 				CB482C2B236B6FC6002B4DCF /* GoldGVC.swift in Sources */,
+				CBC6C4FF237212F900C1E143 /* Colors.swift in Sources */,
 				CB482C29236B6FA0002B4DCF /* SilverGVC.swift in Sources */,
 				CB482C27236B6D02002B4DCF /* BronzeGVC.swift in Sources */,
 				CB482C0B236B5477002B4DCF /* AppDelegate.swift in Sources */,

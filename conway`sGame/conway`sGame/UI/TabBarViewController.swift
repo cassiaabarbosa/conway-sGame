@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class TabBarViewController: UITabBarController {
 
@@ -15,15 +16,15 @@ class TabBarViewController: UITabBarController {
 
         // Do any additional setup after loading the view.
         
-        
         let bronzeViewController = BronzeGVC()
-        bronzeViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
+        bronzeViewController.tabBarItem = UITabBarItem(title: "Bronze", image:UIImage(named: "circle") , tag: 0)
+//        bronzeViewController.tabBarItem.setBadgeTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .selected)
         
         let silverViewController = SilverGVC()
-        silverViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 1)
+        silverViewController.tabBarItem = UITabBarItem(title: "Silver", image:UIImage(named: "circle") , tag: 1)
         
         let goldViewController = GoldGVC()
-        goldViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites , tag: 2)
+        goldViewController.tabBarItem = UITabBarItem(title: "Gold", image:UIImage(named: "circle") , tag: 2)
         
         self.viewControllers = [bronzeViewController, silverViewController, goldViewController]
         
